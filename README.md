@@ -1,6 +1,6 @@
 # 💻 LapPredict: Laptop Price Prediction (End-to-End ML + Streamlit)
 
-## 📌 Project Overview  
+## 🔷 Project Overview  
 LapPredict is an **end-to-end machine learning solution** designed to predict laptop prices using hardware specifications and brand attributes.  
 The project implements a **robust preprocessing + modeling pipeline** and deploys it via a **Streamlit web application** for real-time predictions.
 
@@ -8,7 +8,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## 🎯 Business Objective  
+## 🔷 Business Objective  
 - Predict laptop prices with high accuracy using technical specifications  
 - Support competitive pricing and product positioning  
 - Analyze **brand impact on pricing**  
@@ -16,7 +16,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## 📊 Dataset  
+## 🔷 Dataset  
 - ~1300 laptop records  
 - 13 features  
 - Target variable: Price  
@@ -33,7 +33,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## 🛠 Tech Stack  
+## 🔷 Tech Stack  
 - **Programming:** Python  
 - **ML Libraries:** scikit-learn, XGBoost  
 - **Data Analysis:** pandas, numpy  
@@ -43,7 +43,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## 🚀 Machine Learning Workflow  
+## 🔷 Machine Learning Workflow  
 
 ### 1. Data Exploration  
 - Identified key predictors: **Brand, RAM, SSD, PPI**  
@@ -61,7 +61,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## ⚙️ Pipeline Architecture (Key Highlight)  
+## 🔷 Pipeline Architecture (Key Highlight)  
 - Built using **ColumnTransformer + Pipeline**  
 - Combined preprocessing and model training into a single workflow  
 - Ensured:
@@ -71,7 +71,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## 🤖 Model Development  
+## 🔷 Model Development  
 Trained and evaluated multiple models:
 - Linear Regression  
 - Random Forest Regressor  
@@ -80,7 +80,7 @@ Trained and evaluated multiple models:
 
 ---
 
-## 🔍 Model Optimization  
+## 🔷 Model Optimization  
 - Hyperparameter tuning (depth, estimators, learning rate)  
 - Model evaluation using:
   - R² Score  
@@ -89,7 +89,7 @@ Trained and evaluated multiple models:
 
 ---
 
-## 📈 Key Insights  
+## 🔷 Key Insights  
 - **Brand significantly influences pricing** (premium segment effect)  
 - **RAM and SSD capacity** are strong predictors  
 - Higher **PPI correlates with higher price**  
@@ -97,7 +97,7 @@ Trained and evaluated multiple models:
 
 ---
 
-## 🖥 Streamlit Application  
+## 🔷 Streamlit Application  
 An interactive web application enabling real-time predictions.
 
 ### Features  
@@ -108,7 +108,7 @@ An interactive web application enabling real-time predictions.
 
 ---
 
-## 📊 Results  
+## 🔷 Results  
 - **R² Score:** ~0.91  
 - **RMSE:** ~15,700  
 - **MAE:** ~9,100  
@@ -117,13 +117,13 @@ The model delivers **reliable predictions across diverse laptop categories**.
 
 ---
 
-## ⚠️ Limitations  
+## 🔷 Limitations  
 - Limited dataset size (~1300 records)  
 - Market trends and latest models not included   
 
 ---
 
-## 🔮 Future Enhancements  
+## 🔷 Future Enhancements  
 - Add latest market data and new laptop releases    
 - Expand Streamlit app with comparison dashboards  
 
