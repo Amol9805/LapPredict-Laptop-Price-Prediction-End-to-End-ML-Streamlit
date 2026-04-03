@@ -1,6 +1,6 @@
 # 💻 LapPredict: Laptop Price Prediction (End-to-End ML + Streamlit)
 
-## 🔷 Project Overview  
+## 🔷 Project Overview:
 LapPredict is an **end-to-end machine learning solution** designed to predict laptop prices using hardware specifications and brand attributes.  
 The project implements a **robust preprocessing + modeling pipeline** and deploys it via a **Streamlit web application** for real-time predictions.
 
@@ -8,7 +8,7 @@ It enables data-driven pricing decisions, supports new product evaluation, and i
 
 ---
 
-## 🔷 Business Objective  
+## 🔷 Business Objective:  
 - Predict laptop prices with high accuracy using technical specifications  
 - Support competitive pricing and product positioning  
 - Analyze **brand impact on pricing**  
